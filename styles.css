@@ -1,0 +1,37 @@
+:root {
+    --fnt-size24: 24px;
+    --fnt-size36: 36px;
+    --fnt-extra-bold: 800;
+    --txt-clr-white: #F9FAF8;
+    --txt-clr-gray: #E5E7EB;
+    --bg-dark: #1F2937;
+}
+
+body {
+    margin: 0;
+}
+
+#hero {
+    background-color: var(--bg-dark);
+}
+
+ul {
+    list-style-type: none;
+    font-size: 18px;
+    padding: 25px;
+    margin: 0;
+    display: flex;
+    gap: 15px;
+}
+
+a {
+    color: var(--txt-clr-gray);
+    text-decoration: none;
+}
+
+#logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: var(--fnt-size24);
+    color: var(--txt-clr-white);
+}
