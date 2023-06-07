@@ -76,10 +76,25 @@ button {
 }
 
 /* INFO SECTION */
+
 h2 {
     text-align: center;
+    margin-bottom: 50px;
     font-size: var(--fnt-size36);
     font-weight: var(--fnt-extra-bold);
     color: var(--bg-dark);
 }
 
+#info img {
+    width: 150px;
+    height: 100px;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
