@@ -13,6 +13,12 @@ body {
     margin: 0;
 }
 
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* HERO SECTION */
 
 #hero,
@@ -114,9 +120,6 @@ h2 {
 /* QUOTE */
 #quote {
     background-color: var(--txt-clr-gray);
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 50vh;
 }
 
@@ -130,9 +133,6 @@ h2 {
 /* SIGN UP */
 #sign-up {
     height: 30vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .sign-container {
@@ -155,7 +155,5 @@ h2 {
 footer {
     height: 10vh;
     color: var(--txt-clr-white);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
 }
