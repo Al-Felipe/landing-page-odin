@@ -15,7 +15,8 @@ body {
 
 /* HERO SECTION */
 
-#hero {
+#hero,
+footer {
     background-color: var(--bg-dark);
     height: 66vh;
 }
@@ -150,3 +151,11 @@ h2 {
     margin-bottom: 0;
 }
 
+/* FOOTER */
+footer {
+    height: 10vh;
+    color: var(--txt-clr-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
