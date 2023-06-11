@@ -76,6 +76,10 @@ button {
 }
 
 /* INFO SECTION */
+#info {
+    height: 50vh;
+}
+
 
 h2 {
     text-align: center;
@@ -97,4 +101,27 @@ h2 {
     display: flex;
     justify-content: center;
     gap: 30px;
+    color: rgb(99, 99, 99);
+    text-align: center;
+}
+
+/* QUOTE */
+#quote {
+    background-color: var(--txt-clr-gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.quote-txt {
+    font-size: var(--fnt-size36);
+    font-weight: var(--fnt-extra-bold);
+    color: var(--bg-dark);
+    font-style: italic;
+}
+
+/* SIGN UP */
+#sign-up {
+    
 }
