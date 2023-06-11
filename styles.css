@@ -57,7 +57,8 @@ button {
     color: var(--txt-clr-white);
     padding: 5px 10px;
     border-radius: 5px;
-    border: none;
+    border-width: 2px;
+    border-color: var(--txt-clr-white);
     font: inherit;
 }
 
@@ -67,6 +68,10 @@ button {
     align-items: center;
     padding: var(--pad-25);
     width: 1200px;
+}
+
+.hero-txt-container button {
+    border: none;
 }
 
 #hero img {
@@ -123,5 +128,25 @@ h2 {
 
 /* SIGN UP */
 #sign-up {
-    
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.sign-container {
+    background-color: var(--clr-blue);
+    color: var(--txt-clr-gray);
+    width: 600px;
+    padding: 10px 50px;
+    border-radius: 8px;
+}
+
+.txt-call {
+    color: var(--txt-clr-white);
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 2px;
+    margin-bottom: 0;
+}
+
